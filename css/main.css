@@ -5164,9 +5164,9 @@ button {
 /*------------- #Color-scheme for buttons --------------*/
 .button--primary {
   background-color: var(--primary-accent-color);
-  border-color: var(--primary-accent-color);
   color: var(--white-color); }
   .button--primary:hover {
+    border-color: var(--primary-accent-color);
     color: var(--white-color); }
   .button--primary .crumina-icon,
   .button--primary i {
@@ -5213,11 +5213,14 @@ button {
         fill: var(--white-color); }
 
 .button--dark {
-  background-color: var(--dark-themes);
+  background-color: var(--slider-dark-blue);
   border-color: var(--dark-themes);
   color: var(--white-color); }
   .button--dark:hover {
-    color: var(--white-color); }
+
+    border-color: var(--red-themes);
+    color: var(--white-color);
+    }
   .button--dark .crumina-icon,
   .button--dark i {
     color: var(--white-color);
