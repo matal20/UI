@@ -1938,6 +1938,7 @@ button.swiper-pagination-bullet {
   --green-themes: #95d133;
   --grey-themes: #f1f2ec;
   --dark-themes: #1b2c38;
+  --slider-dark-blue:#001c29;
   --yellow-themes: #ffcb05;
   --brown-themes: #d89961;
   --pink-themes: #f28089;
@@ -6688,7 +6689,7 @@ button {
   width: 100%;
   z-index: 10; }
   .main-slider-slides .slides-item {
-    padding: 40px;
+    padding: 10px;
     width: 100%;
     min-width: 20%;
     display: -webkit-box;
@@ -6707,9 +6708,9 @@ button {
     cursor: pointer;
     position: relative;
     color: var(--white-color);
-    -webkit-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease; }
+    -webkit-transition: all 1.5s ease;
+    -o-transition: all 1.5s ease;
+    transition: all 1.5s ease; }
     .main-slider-slides .slides-item .slides-item-icon {
       position: absolute;
       right: 40px;
@@ -6718,7 +6719,7 @@ button {
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
     .main-slider-slides .slides-item:hover, .main-slider-slides .slides-item.swiper-slide-active {
-      color: var(--heading-color); }
+      color: orange; }
     .main-slider-slides .slides-item.bg-grey-theme {
       color: var(--body-font-color); }
     .main-slider-slides .slides-item.bg-dark-theme {
@@ -8375,6 +8376,9 @@ button {
 
 .bg-secondary-themes {
   background-color: var(--secondary-accent-color); }
+
+.bg-dark-blue-themes {
+  background-color: var(--slider-dark-blue);}
 
 .dark-section {
   background-color: #181e23;
