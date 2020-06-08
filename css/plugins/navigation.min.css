@@ -305,7 +305,7 @@
     .navigation-body-close-button {
       display: none; } }
   .navigation-body-close-button:hover {
-    color: var(--primary-accent-color); }
+    color: red; }
 
 .navigation-body-section {
   width: 100%;
@@ -403,7 +403,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background-color: var(--primary-accent-color);
+    background-color: red;
     position: absolute;
     left: 10px;
     bottom: 40px;
@@ -418,7 +418,7 @@
   .navigation-item:not(.navigation-brand-text):hover .navigation-link,
   .navigation-item:not(.navigation-brand-text):focus .navigation-link,
   .navigation-item:not(.navigation-brand-text).is-active .navigation-link {
-    color: var(--primary-accent-color); }
+    color: red; }
   @media (min-width: 992px) {
     .navigation-link {
       height: 100%;
@@ -837,12 +837,12 @@
   -o-transition: border 0.3s, color 0.3s, background 0.3s;
   transition: border 0.3s, color 0.3s, background 0.3s; }
   .navigation-dropdown-link:hover {
-    color: var(--primary-accent-color) !important; }
+    color: red !important; }
     .navigation-dropdown-link:hover:before {
       opacity: 1;
       height: 100%; }
     .navigation-dropdown-link:hover .crumina-icon {
-      fill: var(--primary-accent-color); }
+      fill: red; }
     .navigation-dropdown-link:hover .arrow-right {
       opacity: 1;
       margin-left: 20px; }
@@ -861,7 +861,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    background-color: var(--primary-accent-color);
+    background-color: red;
     opacity: 0;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -1126,7 +1126,7 @@
       [class^=navigation-col]:last-of-type .navigation-list > li > a:not(.crumina-button) {
         border-right: none; }
       .navigation-list > li > a:not(.crumina-button):hover .crumina-icon {
-        fill: var(--primary-accent-color); }
+        fill: red; }
       .navigation-list > li > a:not(.crumina-button):hover .arrow-right {
         opacity: 1;
         margin-left: 20px; }
@@ -1161,7 +1161,7 @@
       transition: all .3s ease;
       display: none; }
     .navigation-list > li:not(.navigation-list-heading) > a:hover {
-      color: var(--primary-accent-color); }
+      color: red; }
       .navigation-list > li:not(.navigation-list-heading) > a:hover:after {
         opacity: 1; }
 
